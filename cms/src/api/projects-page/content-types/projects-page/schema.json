@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "projects_pages",
+  "info": {
+    "singularName": "projects-page",
+    "pluralName": "projects-pages",
+    "displayName": "Projects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
