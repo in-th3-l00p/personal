@@ -1,5 +1,5 @@
-import Image, {ImageProps} from "next/image";
-import {Job} from "@/lib/strapi/single/home/workExperience";
+import Image from "next/image";
+import {Job} from "@/lib/strapi/collection/workExperience";
 
 export function Role({job}: { job: Job }) {
   return (

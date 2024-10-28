@@ -23,6 +23,7 @@ export interface Job {
 
 export default async function getWorkExperience(): Promise<Job[]> {
   const strapiJobs = (await strapi.find<StrapiJob[]>("work-experiences", {
+    sort: ["start:desc", "end:desc"],
     populate: "*"
   })).data;
 

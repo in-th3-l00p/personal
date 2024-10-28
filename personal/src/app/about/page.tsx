@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import {Container} from '@/components/ui/Container'
 import {GitHubIcon, InstagramIcon, LinkedInIcon,} from '@/components/icons/SocialIcons'
-import constants from "@/lib/constants";
 import {SocialLink} from "@/components/about/socialLink";
 import {MailIcon} from "@/components/about/icons/mailIcon";
 import getAbout from "@/lib/strapi/single/about";

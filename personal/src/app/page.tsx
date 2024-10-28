@@ -3,10 +3,8 @@ import {GitHubIcon, InstagramIcon, LinkedInIcon,} from '@/components/icons/Socia
 import {getAllArticles} from '@/lib/strapi/collection/articles'
 import {Article} from "@/components/home/article";
 import {SocialLink} from "@/components/home/socialLink";
-import {Newsletter} from "@/components/home/newsletter";
 import Resume from "@/components/home/resume";
 import {Photos} from "@/components/home/photos";
-import constants from "@/lib/constants";
 import getHome from "@/lib/strapi/single/home";
 import getSocials from "@/lib/strapi/collection/socials";
 

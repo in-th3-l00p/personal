@@ -1,9 +1,7 @@
-import assert from 'assert'
-import * as cheerio from 'cheerio'
 import { Feed } from 'feed'
 import {getAllArticles} from "@/lib/strapi/collection/articles";
 
-export async function GET(req: Request) {
+export async function GET() {
   let siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
   if (!siteUrl) {

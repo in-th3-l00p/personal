@@ -1,9 +1,8 @@
 import {Role} from "@/components/home/resume/role";
-import wildcardLogo from "@/images/logos/wildcard.svg";
 import {BriefcaseIcon} from "@/components/home/icons/briefcaseIcon";
 import {Button} from "@/components/ui/Button";
 import {ArrowDownIcon} from "@/components/home/icons/arrowDownIcon";
-import getWorkExperience from "@/lib/strapi/single/home/workExperience";
+import getWorkExperience from "@/lib/strapi/collection/workExperience";
 
 export default async function Resume({ title, resumeButton, resumeUrl }: {
   title: string;
