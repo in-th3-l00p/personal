@@ -15,7 +15,11 @@ const nextConfig = {
           {
               protocol: "http",
               hostname: "localhost"
-          }
+          },
+		  {
+		      protocol: "https",
+              hostname: "strapi.tiscacatalin.com"
+		  }
       ]
     }
 }
