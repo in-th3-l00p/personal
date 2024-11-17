@@ -11,7 +11,7 @@ export function Role({job}: { job: Job }) {
           height={128}
           src={job.logo.url}
           alt={job.logo.alternativeText}
-          className="h-7 w-7 invert dark:invert-0"
+          className="h-7 w-7 invert object-cover dark:invert-0"
           unoptimized
         />
       </div>
